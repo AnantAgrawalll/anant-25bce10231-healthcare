@@ -1,0 +1,84 @@
+
+
+PROJECT REPORT
+
+Medication Reminder App (Python)
+
+1. Introduction
+
+This project is a simple Python-based medication reminder app. Its goal is to help people remember to take their medicines on time. The program displays reminders at fixed intervals and supports multiple languages using small JSON files.
+
+2. Objective
+
+To create a basic automated reminder system
+
+To allow users to choose their preferred language
+
+To make the system simple, reliable, and easy to use
+
+3. How the Project Works
+
+The project contains a Python script and a folder with language files.
+When the program starts:
+
+1. The user selects a language (like English or Bengali).
+
+
+2. The program loas the reminder message from the matching JSON file.
+
+
+3. It shows the reminder in the selected language.
+
+
+4. It repeats this reminder automatically after a fixed number of hours.
+
+4. Key Components
+
+Python 3
+
+Uses simple libraries: time, json, os
+
+JSON files store remnders like:
+
+
+5. Features
+
+Multilingual reminders
+
+Runs automatically in a loop
+
+Lightweight and beginner-friendly
+
+Works on any device with Python
+
+6. Advantages
+
+Helps maintain a regular medication routine
+
+Very easy to set up
+
+Flexible and customizable
+
+
+7. Limitations
+
+Works in a terminal only (no GUI)
+
+Needs to keep running in the background
+
+
+8. Future Improvements
+
+Add popup notifications
+
+Add text-to-speech reminders
+
+Add WhatsApp/Telegram alerts
+
+Create a full GUI 
+
+9. Conclusion
+
+This project shows how Python can be used to build simple automation tools that make life easier. The reminder system is easy to use, customizable, and helpful for anyone who needs regular medication reminders.
+
+
